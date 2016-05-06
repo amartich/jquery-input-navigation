@@ -21,7 +21,7 @@ Ladies and gentleman, I introduce you the **list of features to be implemented f
 
  - **Navigate through input fields using the arrow keys.**
     - Create the logic to make the `key-down` for moving forward to the next input field, and the `key-up` for moving back.
-    - Create a boolean option named `cyclic` that will indicates if the navigation trough input fields will be cyclic (being in the last input field and moving to next will navigate to the first one). Example of use: `$('form').inputNavigation({ cyclic: true })`. The default value will false.
+    - Create a boolean option named `cyclic` that will indicate if the navigation through input fields will be cyclic (being in the last input field and moving to the next will navigate to the first one). Example of use: `$('form').inputNavigation({ cyclic: true })`. The default value will be false.
     
  - **Manual navigation through input fields using methods.**
  	- Create a method for allowing manual navigation to the next input field. That method should be called as follow: `$('form').inputNavigation('next')`.
